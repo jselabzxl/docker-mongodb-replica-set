@@ -21,15 +21,15 @@ It's probably not a good idea to run this setup in production as each mongo inst
 
 172.17.13.207
 
-    docker run -d --hostname=172.17.13.207 --name=mongodb_rs_94_27020_27020 -p 27020:27020 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /home/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_94_27020_27020.sh
+    docker run -d --hostname=172.17.13.207 --name=mongodb_rs_94_27020_27020 -p 27020:27020 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /usr/local/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_94_27020_27020.sh
     
-    docker run -d --hostname=172.17.13.207 --name=mongodb_rs_94_27020_27021 -p 27021:27021 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /home/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_94_27020_27021.sh
+    docker run -d --hostname=172.17.13.207 --name=mongodb_rs_94_27020_27021 -p 27021:27021 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /usr/local/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_94_27020_27021.sh
 
 172.17.13.208
 
-    docker run -d --hostname=172.17.13.208 --name=mongodb_rs_95_27020_27020 -p 27020:27020 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /home/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_95_27020_27020.sh
+    docker run -d --hostname=172.17.13.208 --name=mongodb_rs_95_27020_27020 -p 27020:27020 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /usr/local/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_95_27020_27020.sh
     
-    docker run -d --hostname=172.17.13.208 --name=mongodb_rs_95_27020_27021 -p 27021:27021 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /home/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_95_27020_27021.sh
+    docker run -d --hostname=172.17.13.208 --name=mongodb_rs_95_27020_27021 -p 27021:27021 -v /var/log/scrapy_guba_mongodb/:/var/log/mongodb/ -v /usr/local/docker/docker-mongodb-replica-set/bin/:/mongodb/ -v /var/lib/scrapy_guba_mongodb/:/data/db/ mongodb_replica_set:0.1.0 /mongodb/start_rs_95_27020_27021.sh
 
 #### Initiate ReplicaSet
 
